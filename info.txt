@@ -1,0 +1,4 @@
+1.
+pip install duckduckgo-search --upgrade-strategy only-if-needed
+
+Note: This is safer than the -U flag the error message suggests. The -U flag aggressively updates everything it touches. --upgrade-strategy only-if-needed will only install what is strictly missing (like primp) without forcing your existing langgraph or openai packages to change versions unless absolutely necessary for compatibility.
